@@ -7,11 +7,9 @@ phases:
   build:
     commands:
       - mvn install
-      - mvn clean  
-      - mvn package
 artifacts:
   discard-paths: yes
   files:
-    - target/*
+    - target/LoginWebApp-1.war
     - scripts/*
     - appspec.yml
