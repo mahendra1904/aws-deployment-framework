@@ -6,7 +6,8 @@ phases:
       java: corretto8
   build:
     commands:
-      - mvn clean package 
+      - mvn clean  
+      - mvn package
 artifacts:
   discard-paths: yes
   files:
